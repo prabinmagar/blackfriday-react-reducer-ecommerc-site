@@ -1,0 +1,48 @@
+@import "../App.scss";
+
+.sc-login{
+    padding-top: 60px;
+    .login-content{
+        background-color: $clr-white;
+        max-width: 420px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 6px;
+
+        .login-title{
+            color: $clr-dark;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-element{
+            margin-bottom: 12px;
+            .form-label{
+                color: $clr-dark-grey;
+                margin-bottom: 8px;
+                display: block;
+            }
+            .form-control{
+                border: 1px solid rgba(0, 0, 0, 0.15);
+                border-radius: 4px;
+                transition: $transition-default;
+                font-size: 14px;
+                padding-top: 8.5px;
+                padding-bottom: 8.5px;
+
+                &:focus{
+                    border-color: $clr-primary;
+                }
+            }
+        }
+
+        .btn-login{
+            margin-top: 12px;
+            background-color: $clr-primary;
+            width: 100%;
+            border-radius: 4px;
+            padding: 12px 16px;
+            color: $clr-white;
+        }
+    }
+}

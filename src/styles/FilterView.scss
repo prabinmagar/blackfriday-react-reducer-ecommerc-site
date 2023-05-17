@@ -1,0 +1,29 @@
+@import "../App.scss";
+
+.filter-top{
+    padding-top: 24px;
+    .filter-top-content{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        .filter-top-sort{
+            .filter-select{
+                opacity: 0.9;
+            }
+        }
+
+        .filter-top-view{
+            margin-left: 20px;
+            p{
+                margin-bottom: 3px;
+            }
+
+            .grid-btn, .list-btn{
+                margin-left: 8px;
+                transition: $transition-default;
+
+                &:hover{
+                    color: $clr-dark;
+                }
+            }
+        }
+    }
+}

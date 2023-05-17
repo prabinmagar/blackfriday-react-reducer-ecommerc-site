@@ -1,0 +1,22 @@
+@import "../App.scss";
+
+.page-not-found{
+    .page-not-found-img{
+        width: 120px;
+    }
+    .btn-back-to-home{
+        display: block;
+        background-color: $clr-primary;
+        color: $clr-white;
+        padding: 7px 15px;
+        margin-top: 8px;
+        max-width: 190px;
+        margin-right: auto;
+        margin-left: auto;
+        transition: $transition-default;
+
+        &:hover{
+            background-color: $clr-black;
+        }
+    }
+}
